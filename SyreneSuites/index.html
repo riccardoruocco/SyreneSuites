@@ -15,9 +15,11 @@
 <body>
   <header class="header-block">
     <h1 data-key="welcome" hidden>Welcome to Syrene Suites</h1>
-    <i class="fas fa-bars header-ham-icon"></i>
+    <i class="fas fa-bars header-ham-icon" onclick="toggleMenu()"></i>
     <img src="images/logo.svg" alt="Syrene Suites Logo" class="header-logo">
-    <p class="header-lang-switcher">IT&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;EN</p>
+    <p class="header-lang-switcher">
+      <span class="lang-option lang-active" id="lang-it" onclick="setLang('it')">IT</span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<span class="lang-option" id="lang-en" onclick="setLang('en')">EN</span>
+    </p>
   </header>
   <main class="main-block">
     <div class="main-overlay"></div>

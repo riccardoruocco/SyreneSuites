@@ -125,3 +125,12 @@ main {
 .footer-icons a:hover {
     color: #25D366; /* WhatsApp green as a hover example */
 }
+
+.lang-option {
+    cursor: pointer;
+    padding: 0 0.2em;
+    transition: border-bottom 0.2s;
+}
+.lang-active {
+    border-bottom: 2px solid white;
+}
